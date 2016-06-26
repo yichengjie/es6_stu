@@ -75,14 +75,26 @@ function test4(){
 }
 //f() ;
 
-{
+/*{
 
     var [a, b, c] = [1, 2, 3];
     console.info(a) ;
     console.info(b) ;
     console.info(c) ;
 
+}*/
+
+function aaa(){
+    var s = 'hello';
+
+    for (var i = 0; i < s.length; i++) {
+        console.log(s[i]);
+    }
+
+    console.log('********** > ' + i); // 5
 }
+
+aaa() ;
 
 
 
