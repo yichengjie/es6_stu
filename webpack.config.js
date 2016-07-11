@@ -8,11 +8,12 @@ module.exports = {
     //页面入口文件配置
     entry: {
         index : './src/js/demo02.js',
-        demo1 : './src/js/demo01.js'
+        demo1 : './src/js/demo01.js',
+        arrowfn:'./src/js/arrowfunciton.js'
     },
     //入口文件输出配置
     output: {
-        path: 'dist/js',
+        path: 'dist',
         filename: '[name].js'
     },
     module: {
