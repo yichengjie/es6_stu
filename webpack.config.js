@@ -11,7 +11,8 @@ module.exports = {
         demo1 : './src/js/demo01.js',
         arrowfn:'./src/js/arrowfunciton.js',
         async:'./src/js/async.js',
-        async2:'./src/js/async2.js'
+        async2:'./src/js/async2.js',
+        g:'./src/js/g.js'
     },
     //入口文件输出配置
     output: {
