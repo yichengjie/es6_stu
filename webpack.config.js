@@ -9,7 +9,9 @@ module.exports = {
     entry: {
         index : './src/js/demo02.js',
         demo1 : './src/js/demo01.js',
-        arrowfn:'./src/js/arrowfunciton.js'
+        arrowfn:'./src/js/arrowfunciton.js',
+        async:'./src/js/async.js',
+        async2:'./src/js/async2.js'
     },
     //入口文件输出配置
     output: {
@@ -26,10 +28,6 @@ module.exports = {
                 include: __dirname
             },
         ]
-    },
-    babel: {
-      presets: ['es2015'],
-      plugins: ['transform-runtime']
     },
     //其它解决方案配置
     resolve: {
