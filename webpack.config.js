@@ -12,7 +12,10 @@ module.exports = {
         arrowfn:'./src/js/arrowfunciton.js',
         async:'./src/js/async.js',
         async2:'./src/js/async2.js',
-        g:'./src/js/g.js'
+        g:'./src/js/g.js',
+        g2:'./src/js/g2.js',
+        g3:'./src/js/g3.js',
+        co:'./src/js/co.js'
     },
     //入口文件输出配置
     output: {
@@ -27,6 +30,10 @@ module.exports = {
                 loaders: [ 'babel' ],
                 exclude: /node_modules/,
                 include: __dirname
+            },
+            {
+                test: /\.json$/,
+                loaders: [ 'json' ],
             },
         ]
     },
