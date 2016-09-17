@@ -23,7 +23,11 @@ module.exports = {
         decorator07:'./src/decorator07.js',
         decorator08:'./src/decorator08.js',
         decorator09:'./src/decorator09.js',
-        decorator10:'./src/decorator10.js'
+        decorator10:'./src/decorator10.js',
+        decorator11:'./src/decorator11.js',
+        decorator12:'./src/decorator12.js',
+        traits1:'./src/traits1.js',
+        traits2:'./src/traits2.js'
     },
     //入口文件输出配置
     output: {
