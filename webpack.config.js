@@ -13,7 +13,8 @@ module.exports = {
         async:'./src/async.js',
         async2:'./src/async2.js',
         g1:'./src/g1.js',
-        g2:'./src/g2.js'
+        g2:'./src/g2.js',
+        decorator1:'./src/decorator1.js'
     },
     //入口文件输出配置
     output: {
