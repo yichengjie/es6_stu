@@ -24,7 +24,8 @@
     "babel-preset-stage-3": "^6.11.0",
     "co": "^4.6.0",
     "json-loader": "^0.5.4",
-    "node-fetch": "^1.6.1"
+    "node-fetch": "^1.6.1",
+    "thunkify": "^2.1.2"
   },
   "devDependencies": {
     "babel-core": "^6.8.0",

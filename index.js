@@ -6,14 +6,12 @@ function testLet(){
     for(let i = 0 ; i < 10 ;i++){
 
     }
-    //这里无法访问到变量 let
     console.info(i) ;
 }
 
 function testVar(){
     for(var i = 0 ; i < 10 ;i++){
     }
-    //这里可以访问到变量 let
     console.info(i) ;
 }
 //testLet() ;

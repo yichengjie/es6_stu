@@ -1,3 +1,4 @@
+//因为是node模块所以不能被webpack打包后执行，可以直接执行
 var nodeFetch = require('node-fetch') ;
 
 function * gen(){
