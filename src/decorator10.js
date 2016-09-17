@@ -1,17 +1,20 @@
-function dec(id){
-  console.info('evaluated : ' ,id ) ;
-  return function(target,property,descriptor){
-     console.info('executed : ', id) ;
-     //这里return 不return没有影响好像，不知道啥区别
-     //return descriptor ;
+import publish from './publish.js' ;
+
+class FooComponent{
+  @publish("foo.some.message","component")
+  someMethod(){
+    return {
+      my:"data"
+    };
   }
+  @publish("foo.some.other")
+  anotherMethod(){
+
+  }
+
 }
 
-class Example{
-  @dec(1)
-  @dec(2)
-  method(){}
-}
+let foo = new FooComponent() ;
 
-var t = new Example() ;
-t.method() ;
+foo.someMethod() ;
+foo.anotherMethod() ;

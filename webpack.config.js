@@ -14,15 +14,16 @@ module.exports = {
         async2:'./src/async2.js',
         g1:'./src/g1.js',
         g2:'./src/g2.js',
-        decorator1:'./src/decorator1.js',
-        decorator2:'./src/decorator2.js',
-        decorator3:'./src/decorator3.js',
-        decorator4:'./src/decorator4.js',
+        decorator01:'./src/decorator01.js',
+        decorator02:'./src/decorator02.js',
+        decorator03:'./src/decorator03.js',
+        decorator04:'./src/decorator04.js',
         //decorator5:'./src/decorator5.js',
-        decorator6:'./src/decorator6.js',
-        decorator7:'./src/decorator7.js',
-        decorator8:'./src/decorator8.js',
-        decorator9:'./src/decorator9.js'
+        decorator06:'./src/decorator06.js',
+        decorator07:'./src/decorator07.js',
+        decorator08:'./src/decorator08.js',
+        decorator09:'./src/decorator09.js',
+        decorator10:'./src/decorator10.js'
     },
     //入口文件输出配置
     output: {
