@@ -20,7 +20,8 @@ module.exports = {
         decorator4:'./src/decorator4.js',
         //decorator5:'./src/decorator5.js',
         decorator6:'./src/decorator6.js',
-        decorator7:'./src/decorator7.js'
+        decorator7:'./src/decorator7.js',
+        decorator8:'./src/decorator8.js'
     },
     //入口文件输出配置
     output: {
