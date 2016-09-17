@@ -1,5 +1,6 @@
 //var fs = require('fs') ;
 var fs =require("fs");  
+//import fs from 'fs';
 
 var readFile = function(fileName){
     return new Promise(function(resolve,reject){
@@ -13,7 +14,7 @@ var readFile = function(fileName){
 }
 
 var gen = function *(){
-    var f1 = yield readFile('./g1.js') ;
+    var f1 = yield readFile('./g.js') ;
     var f2 = yield readFile('./g2.js') ;
     console.log(f1.toString()) ;
     console.log(f2.toString()) ;

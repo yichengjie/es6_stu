@@ -7,15 +7,13 @@ module.exports = {
     //plugins: [commonsPlugin],
     //页面入口文件配置
     entry: {
-        index : './src/js/demo02.js',
-        demo1 : './src/js/demo01.js',
-        arrowfn:'./src/js/arrowfunciton.js',
-        async:'./src/js/async.js',
-        async2:'./src/js/async2.js',
-        g:'./src/js/g.js',
-        g2:'./src/js/g2.js',
-        g3:'./src/js/g3.js',
-        co:'./src/js/co.js'
+        index : './src/demo02.js',
+        demo1 : './src/demo01.js',
+        arrowfn:'./src/arrowfunciton.js',
+        async:'./src/async.js',
+        async2:'./src/async2.js',
+        g:'./src/g.js',
+        g2:'./src/g2.js'
     },
     //入口文件输出配置
     output: {
