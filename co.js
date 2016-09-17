@@ -1,4 +1,5 @@
 //var fs = require('fs') ;
+//只能在node环境下执行，因为属于后端程序，所以不能使用webpack打包，否则会报fs找不到
 var fs =require("fs");  
 //import fs from 'fs';
 
