@@ -15,9 +15,10 @@ var readFile = function(fileName){
 }
 
 var gen = function *(){
-    var f1 = yield readFile('./g.js') ;
-    var f2 = yield readFile('./g2.js') ;
+    var f1 = yield readFile('./index.html') ;
+    var f2 = yield readFile('./index.js') ;
     console.log(f1.toString()) ;
+    console.info('--------------------------------------------------------') ; 
     console.log(f2.toString()) ;
 }
 
