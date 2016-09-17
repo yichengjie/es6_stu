@@ -12,7 +12,7 @@ module.exports = {
         arrowfn:'./src/arrowfunciton.js',
         async:'./src/async.js',
         async2:'./src/async2.js',
-        g:'./src/g.js',
+        g1:'./src/g1.js',
         g2:'./src/g2.js'
     },
     //入口文件输出配置
