@@ -12,12 +12,9 @@ function mix(...mixins) {
 
 function copyProperties(target, source) {
   for (let key of Reflect.ownKeys(source)) {
-    if ( key !== "constructor"
-      && key !== "prototype"
-      && key !== "name"
-    ) {
-      let desc = Object.getOwnPropertyDescriptor(source, key);
-      Object.defineProperty(target, key, desc);
+    if ( key !== "constructor"&& key !== "prototype"&& key !== "name") {
+        let desc = Object.getOwnPropertyDescriptor(source, key);
+        Object.defineProperty(target, key, desc);
     }
   }
 }
