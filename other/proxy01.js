@@ -19,3 +19,10 @@ obj.count = 1
 //  getting count!
 //  setting count!
 //  2
+let i = 0 ;
+//++i,返回值为加后的值
+console.info(++i) ;
+//i++,返回值为加之前的值
+console.info(i++) ;
+
+console.info('i : ' + i) ;
