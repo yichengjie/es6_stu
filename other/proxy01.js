@@ -1,5 +1,5 @@
 'use strict'
-var Reflect = require('harmony-reflect');
+//var Reflect = require('harmony-reflect');
 //import 'babel-polyfill';
 
 var obj = new Proxy({}, {
