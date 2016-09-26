@@ -28,7 +28,8 @@ module.exports = {
         // decorator12:'./src/decorator12.js',
         // traits1:'./src/traits1.js',
         // traits2:'./src/traits2.js'
-        proxy01:'./other/proxy01.js'
+        proxy01:'./other/proxy01.js',
+        index:'./other/index.js'
     },
     //入口文件输出配置
     output: {
