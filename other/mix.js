@@ -23,3 +23,7 @@ function copyProperties(target, source) {
 class DistributedEdit extends mix(Loggable, Serializable) {
   // ...
 }
+
+let MyMixin = (superclass) => class extends superclass{
+  
+}
